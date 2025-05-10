@@ -1,4 +1,4 @@
-<a align="center">[🇬🇧 English](README.md)</a>
+[🇬🇧 English](README.md)
 
 # فلکسی‌کانورت | اپلیکیشن تحت وب تبدیل فرمت فایل
 
