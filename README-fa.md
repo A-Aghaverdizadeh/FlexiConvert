@@ -34,24 +34,40 @@
 ```bash
 git clone https://github.com/yourusername/flexiconvert.git
 cd flexiconvert
-
+```
+۲. ساخت و فعال‌سازی محیط مجازی (Virtual Environment) 
+```bash
 python -m venv venv
 source venv/bin/activate      # در لینوکس یا مک
 venv\Scripts\activate         # در ویندوز
-
+```
+۳. نصب وابستگی‌های پروژه
+```bash
 pip install -r requirements.txt
-
+```
+۴. نصب Tesseract برای OCR
+در لینوکس (Debian/Ubuntu):
+```bash
 sudo apt update
 sudo apt install tesseract-ocr
 sudo apt install tesseract-ocr-fas  # پشتیبانی از زبان فارسی
-
-python manage.py migrate
-
-python manage.py loaddata converter/fixtures/data2.json
-
-python manage.py runserver
-
 ```
+توجه: در ویندوز می‌توانید Tesseract را از صفحه گیت‌هاب پروژه دانلود و نصب کنید.
+
+۵. اعمال مهاجرت‌ها (Migrations)
+
+```bash
+python manage.py migrate
+```
+۶. بارگذاری داده‌های اولیه
+```bash
+python manage.py loaddata converter/fixtures/data2.json
+```
+۷. اجرای سرور توسعه
+```bash
+python manage.py runserver
+```
+اکنون می‌توانید با رفتن به آدرس http://127.0.0.1:8000/ از برنامه استفاده کنید.
 
 📦 تکنولوژی‌های استفاده شده
 زبان برنامه نویسی Python 3.x برای بک اند
