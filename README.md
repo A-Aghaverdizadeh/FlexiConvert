@@ -1,4 +1,4 @@
-[🇮🇷 فارسی](README-fa.md)
+[<img src="https://flagcdn.com/w40/ir.png" height="14"> فارسی](README-fa.md)
 
 # FlexiConvert | File Conversion Web App
 
