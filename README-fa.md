@@ -76,3 +76,5 @@ python manage.py runserver
 - زبان های HTML / CSS / JavaScript برای فرانت
 - کتابخانه‌های Pillow، PyMuPDF، pytesseract، pdf2docx و ...
 
+## 📄 مجوز
+این پروژه تحت مجوز MIT منتشر شده است.
