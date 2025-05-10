@@ -1,0 +1,56 @@
+/* 
+  @font-face {
+    font-family: IRANSans;
+    font-style: normal;
+    font-weight: bold;
+    src: url('../fonts/Sans/IRANSansWeb_Bold.ttf') format('truetype');
+  }
+  
+  @font-face {
+    font-family: IRANSans;
+    font-style: normal;
+    font-weight: 500;
+    src: url('../fonts/Sans/IRANSansWeb_Medium.ttf') format('truetype');
+  }
+  
+  @font-face {
+    font-family: IRANSans;
+    font-style: normal;
+    font-weight: 300;
+    src: url('../fonts/Sans/IRANSansWeb_Light.ttf') format('truetype');
+  }
+  
+  @font-face {
+    font-family: IRANSans;
+    font-style: normal;
+    font-weight: 200;
+    src: url('../fonts/Sans/IRANSansWeb_UltraLight.ttf') format('truetype');
+  }
+  
+  @font-face {
+    font-family: IRANSans;
+    font-style: normal;
+    font-weight: normal;
+    src: url('../fonts/Sans/IRANSansWeb.ttf') format('truetype');
+  } */
+  @font-face {
+    font-family: IRANSans;
+    font-style: normal;
+    font-weight: normal;
+    src: url('../fonts/Sans/iransansdnweb.ttf') format('truetype');
+  }
+
+  /* @font-face {
+    font-family: IRANSans;
+    font-style: normal;
+    font-weight: normal;
+    src: url('../fonts/Sans/iransansdnwebbold.ttf') format('truetype');
+  } */
+  /* @font-face {
+    font-family: IRANSans;
+    font-style: normal;
+    font-weight: normal;
+    src: url('../fonts/Sans/iransansdnwebl.ttf') format('truetype');
+  } */
+  
+      

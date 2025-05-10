@@ -1,0 +1,292 @@
+[
+{
+  "model": "converter.tooltranslation",
+  "pk": 1,
+  "fields": {
+    "language_code": "en",
+    "name": "Image To Pdf",
+    "title": "Image To Pdf Converter",
+    "master": 1
+  }
+},
+{
+  "model": "converter.tooltranslation",
+  "pk": 2,
+  "fields": {
+    "language_code": "fa",
+    "name": "عکس به Pdf",
+    "title": "تبدیل کردن عکس به pdf",
+    "master": 1
+  }
+},
+{
+  "model": "converter.tooltranslation",
+  "pk": 3,
+  "fields": {
+    "language_code": "en",
+    "name": "JPG To PNG",
+    "title": "JPG To PNG Converter",
+    "master": 2
+  }
+},
+{
+  "model": "converter.tooltranslation",
+  "pk": 4,
+  "fields": {
+    "language_code": "fa",
+    "name": "JPG به PNG",
+    "title": "تبدیل کردن JPG به PNG",
+    "master": 2
+  }
+},
+{
+  "model": "converter.tooltranslation",
+  "pk": 5,
+  "fields": {
+    "language_code": "en",
+    "name": "Webp To JPG",
+    "title": "Webp To JPG Converter",
+    "master": 3
+  }
+},
+{
+  "model": "converter.tooltranslation",
+  "pk": 6,
+  "fields": {
+    "language_code": "fa",
+    "name": "Webp به JPG",
+    "title": "تبدیل کردن Webp به JPG",
+    "master": 3
+  }
+},
+{
+  "model": "converter.tooltranslation",
+  "pk": 7,
+  "fields": {
+    "language_code": "en",
+    "name": "Compress Image",
+    "title": "Compress Image",
+    "master": 4
+  }
+},
+{
+  "model": "converter.tooltranslation",
+  "pk": 8,
+  "fields": {
+    "language_code": "fa",
+    "name": "کم کردن حجم عکس",
+    "title": "کم کردن حجم عکس",
+    "master": 4
+  }
+},
+{
+  "model": "converter.tooltranslation",
+  "pk": 9,
+  "fields": {
+    "language_code": "en",
+    "name": "Pdf To Image",
+    "title": "Pdf To Image Converter",
+    "master": 5
+  }
+},
+{
+  "model": "converter.tooltranslation",
+  "pk": 10,
+  "fields": {
+    "language_code": "fa",
+    "name": "Pdf به عکس",
+    "title": "تبدیل کردن Pdf به عکس",
+    "master": 5
+  }
+},
+{
+  "model": "converter.tooltranslation",
+  "pk": 11,
+  "fields": {
+    "language_code": "en",
+    "name": "Image To Text",
+    "title": "image To Text Converter",
+    "master": 6
+  }
+},
+{
+  "model": "converter.tooltranslation",
+  "pk": 12,
+  "fields": {
+    "language_code": "fa",
+    "name": "عکس به متن",
+    "title": "تبدیل کردن عکس به متن",
+    "master": 6
+  }
+},
+{
+  "model": "converter.tooltranslation",
+  "pk": 13,
+  "fields": {
+    "language_code": "en",
+    "name": "Pdf To Docx",
+    "title": "Pdf To Docx Converter",
+    "master": 7
+  }
+},
+{
+  "model": "converter.tooltranslation",
+  "pk": 14,
+  "fields": {
+    "language_code": "fa",
+    "name": "PDF به ورد",
+    "title": "تبدیل کردن PDF به وورد",
+    "master": 7
+  }
+},
+{
+  "model": "converter.tooltranslation",
+  "pk": 15,
+  "fields": {
+    "language_code": "en",
+    "name": "PPT To PDF",
+    "title": "Convert PPT To Pdf",
+    "master": 8
+  }
+},
+{
+  "model": "converter.tooltranslation",
+  "pk": 16,
+  "fields": {
+    "language_code": "fa",
+    "name": "پاورپوینت به PDF",
+    "title": "تبدیل کردن پاورپوینت به PDF",
+    "master": 8
+  }
+},
+{
+  "model": "converter.tooltranslation",
+  "pk": 17,
+  "fields": {
+    "language_code": "en",
+    "name": "SVG To JPG",
+    "title": "Convert SVG To JPG",
+    "master": 9
+  }
+},
+{
+  "model": "converter.tooltranslation",
+  "pk": 18,
+  "fields": {
+    "language_code": "fa",
+    "name": "SVG به JPG",
+    "title": "تبدیل کردن SVG به JPG",
+    "master": 9
+  }
+},
+{
+  "model": "converter.tooltranslation",
+  "pk": 19,
+  "fields": {
+    "language_code": "en",
+    "name": "PDF To Excel",
+    "title": "Convert PDF To Excel",
+    "master": 10
+  }
+},
+{
+  "model": "converter.tooltranslation",
+  "pk": 20,
+  "fields": {
+    "language_code": "fa",
+    "name": "PDF به اکسل",
+    "title": "تبدیل کردن PDF به اکسل",
+    "master": 10
+  }
+},
+{
+  "model": "converter.tool",
+  "pk": 1,
+  "fields": {
+    "url": "image_to_pdf",
+    "icon": "fa-solid fa-file-pdf fa-lg",
+    "status": "PB"
+  }
+},
+{
+  "model": "converter.tool",
+  "pk": 2,
+  "fields": {
+    "url": "jpg_to_png",
+    "icon": "fa-solid fa-file-image fa-lg",
+    "status": "PB"
+  }
+},
+{
+  "model": "converter.tool",
+  "pk": 3,
+  "fields": {
+    "url": "webp_to_jpg",
+    "icon": "fa-solid fa-images fa-lg",
+    "status": "PB"
+  }
+},
+{
+  "model": "converter.tool",
+  "pk": 4,
+  "fields": {
+    "url": "image_compress",
+    "icon": "fa-solid fa-minimize fa-lg",
+    "status": "PB"
+  }
+},
+{
+  "model": "converter.tool",
+  "pk": 5,
+  "fields": {
+    "url": "pdf_to_image",
+    "icon": "fa-regular fa-file-lines fa-lg",
+    "status": "PB"
+  }
+},
+{
+  "model": "converter.tool",
+  "pk": 6,
+  "fields": {
+    "url": "image_to_text",
+    "icon": "fa-solid fa-text fa-lg",
+    "status": "PB"
+  }
+},
+{
+  "model": "converter.tool",
+  "pk": 7,
+  "fields": {
+    "url": "pdf_to_docx",
+    "icon": "fa-solid fa-file-word fa-lg",
+    "status": "PB"
+  }
+},
+{
+  "model": "converter.tool",
+  "pk": 8,
+  "fields": {
+    "url": "home",
+    "icon": "fa-solid fa-file-ppt fa-lg",
+    "status": "DF"
+  }
+},
+{
+  "model": "converter.tool",
+  "pk": 9,
+  "fields": {
+    "url": "home",
+    "icon": "fa-solid fa-file-svg fa-lg",
+    "status": "DF"
+  }
+},
+{
+  "model": "converter.tool",
+  "pk": 10,
+  "fields": {
+    "url": "home",
+    "icon": "fa-solid fa-file-excel fa-lg",
+    "status": "DF"
+  }
+}
+]

@@ -1,0 +1,106 @@
+{% load static %}
+{% load i18n %}
+{% get_current_language as LANGUAGE_CODE %}
+
+<nav class="sidenav navbar navbar-vertical fixed-left navbar-expand-xs navbar-light bg-white" id="sidenav-main">
+  <div class="scrollbar-inner">
+    <!-- Brand -->
+    <div class="sidenav-header d-flex align-items-center">
+      <a class="navbar-brand" href="{% url 'home' %}"><img src="{% static 'img/brand/Logo.png' %}" class="navbar-brand-img" alt="..." /></a>
+      <div class="ml-auto">
+        <!-- Sidenav toggler -->
+        <div class="sidenav-toggler d-none d-xl-block" data-action="sidenav-unpin" data-target="#sidenav-main">
+          <div class="sidenav-toggler-inner">
+            <i class="sidenav-toggler-line"></i>
+            <i class="sidenav-toggler-line"></i>
+            <i class="sidenav-toggler-line"></i>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="navbar-inner">
+      <!-- Collapse -->
+      <div class="collapse navbar-collapse" id="sidenav-collapse-main">
+        <!-- Nav items -->
+        <ul class="navbar-nav">
+
+          {% for item in category_with_tools %}
+          <li class="nav-item">
+
+            <a href="#{{ item.category.js_id }}" class="nav-link" data-toggle="collapse" role="button" aria-expanded="false" aria-controls="{{ item.category.js_id }}">
+              <img src="{% static item.category.icon %}" alt="{{ item.category.title }}">
+              <span class="nav-link-text" {% if LANGUAGE_CODE == 'fa' %} style="margin-right: 14px;" {% else %} style="margin-left: 14px;" {% endif %} >{{ item.category.title }}</span>
+            </a>
+
+            <div class="collapse" id="{{ item.category.js_id }}">
+              <ul class="nav nav-sm flex-column">
+                
+                {% for tool in item.tools %}
+                  <li class="nav-item">
+                    <a href="{% url tool.url %}" class="nav-link">
+                      <span class="sidenav-mini-icon">I</span>
+                      <span class="sidenav-normal">{{ tool.name }}</span>
+                    </a>
+                  </li>
+                {% endfor %}
+                
+              </ul>
+            </div>
+
+          </li>
+          {% endfor %}
+          <!-- user -->
+          {% if user.is_authenticated %}
+            <li class="nav-item">
+              <a class="nav-link" href="#navbar-dashboards" data-toggle="collapse" role="button" aria-expanded="false" aria-controls="navbar-dashboards">
+                <!-- <i class="ni ni-single-02 text-primary"></i> -->
+                 <img src="{% static 'img/icons/custom/user.png' %}" alt="User">
+                <span class="nav-link-text" {% if LANGUAGE_CODE == 'fa' %} style="margin-right: 14px;" {% else %} style="margin-left: 14px;" {% endif %} >{% trans 'Profile' %}</span>
+              </a>
+              <div class="collapse" id="navbar-dashboards">
+                <ul class="nav nav-sm flex-column">
+                  <li class="nav-item">
+                    <a href="{% url 'dashboard' %}" class="nav-link">
+                      <span class="sidenav-mini-icon">M</span>
+                      <span class="sidenav-normal">{% trans 'My Account' %}</span>
+                    </a>
+                  </li>
+                  <li class="nav-item">
+                    <a href="{% url 'security' %}" class="nav-link">
+                      <span class="sidenav-mini-icon">S</span>
+                      <span class="sidenav-normal">{% trans 'Security' %}</span>
+                    </a>
+                  </li>
+                  <li class="nav-item">
+                    <a href="#" class="nav-link">
+                      <span class="sidenav-mini-icon">A</span>
+                      <span class="sidenav-normal">{% trans 'Activity' %}</span>
+                    </a>
+                  </li>
+                </ul>
+              </div>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#navbar-examples" data-toggle="collapse" role="button" aria-expanded="false" aria-controls="navbar-examples">
+                <img src="{% static 'img/icons/custom/settings.png' %}" al="settings">
+                <!-- <i class="ni ni-settings-gear-65 text-orange"></i> -->
+                <span class="nav-link-text" {% if LANGUAGE_CODE == 'fa' %} style="margin-right: 14px;" {% else %} style="margin-left: 14px;" {% endif %} >{% trans 'Settings' %}</span>
+              </a>
+              <div class="collapse" id="navbar-examples">
+                <ul class="nav nav-sm flex-column">
+                  <li class="nav-item">
+                    <a href="{% url 'settings' %}" class="nav-link">
+                      <span class="sidenav-mini-icon">S</span>
+                      <span class="sidenav-normal">{% trans 'Settings' %}</span>
+                    </a>
+                  </li>
+                </ul>
+              </div>
+            </li>
+          {% endif %}
+
+        </ul>
+      </div>
+    </div>
+  </div>
+</nav>

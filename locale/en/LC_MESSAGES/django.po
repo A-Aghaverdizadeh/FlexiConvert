@@ -1,0 +1,800 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2025-05-07 18:09+0000\n"
+"PO-Revision-Date: 2025-05-02 19:39+0000\n"
+"Last-Translator:   <amiraghaverdigit@gmail.com>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Translated-Using: django-rosetta 0.10.0\n"
+
+#: converter/forms.py:10
+msgid "Search Tools"
+msgstr "Search Tools"
+
+#: converter/forms.py:93 service/settings.py:184
+msgid "English"
+msgstr "English"
+
+#: converter/forms.py:94 service/settings.py:185
+msgid "Persian"
+msgstr "Persian"
+
+#: converter/templates/base.html:8 converter/templates/converter/home.html:16
+#: useraccount/templates/auth_base.html:9
+msgid "FlexiConvert"
+msgstr "FlexiConvert"
+
+#: converter/templates/base.html:48
+msgid "Please upload only JPG files."
+msgstr ""
+
+#: converter/templates/base.html:53
+msgid "Please upload only WEBP files."
+msgstr ""
+
+#: converter/templates/base.html:58
+msgid "Please upload only JPG or PNG files."
+msgstr ""
+
+#: converter/templates/base.html:63 converter/templates/base.html:68
+msgid "Please upload JPG, PNG, or WEBP files."
+msgstr ""
+
+#: converter/templates/base.html:73 converter/templates/base.html:78
+msgid "Please upload a PDF file."
+msgstr ""
+
+#: converter/templates/base.html:86
+msgid "Please upload a PPT or PPTX file."
+msgstr ""
+
+#: converter/templates/base.html:91
+msgid "Unsupported file operation."
+msgstr ""
+
+#: converter/templates/base.html:92
+msgid "You can upload a maximum of"
+msgstr ""
+
+#: converter/templates/base.html:93
+msgid "file(s)."
+msgstr ""
+
+#: converter/templates/converter/about.html:6
+#: converter/templates/converter/about.html:16
+#: converter/templates/converter/services.html:6
+msgid "About"
+msgstr "About"
+
+#: converter/templates/converter/about.html:35
+msgid "Our Team Name"
+msgstr "Our Team Name"
+
+#: converter/templates/converter/home.html:6
+#: useraccount/templates/auth_include/navbar.html:36
+msgid "Home"
+msgstr "Home"
+
+#: converter/templates/converter/home.html:31
+msgid "New"
+msgstr "New"
+
+#: converter/templates/converter/home.html:32
+msgid "Filters"
+msgstr "Filters"
+
+#: converter/templates/converter/home.html:43
+#: converter/templates/converter/home.html:49
+msgid "Total traffic"
+msgstr "Total traffic"
+
+#: converter/templates/converter/home.html:55
+#: converter/templates/converter/home.html:78
+#: converter/templates/converter/home.html:101
+#: converter/templates/converter/home.html:124
+msgid "Since last month"
+msgstr "Since last month"
+
+#: converter/templates/converter/home.html:66
+#: converter/templates/converter/home.html:72
+msgid "New users"
+msgstr "New users"
+
+#: converter/templates/converter/home.html:89
+#: converter/templates/converter/home.html:95
+msgid "Converted Files"
+msgstr "Converted Files"
+
+#: converter/templates/converter/home.html:112
+#: converter/templates/converter/home.html:118
+msgid "Performance"
+msgstr "Performance"
+
+#: converter/templates/converter/home.html:142
+#: converter/templates/include/tools.html:15
+msgid "Coming Soon..."
+msgstr "Coming Soon..."
+
+#: converter/templates/converter/image_compress.html:6
+#: converter/templates/converter/image_compress.html:16
+msgid "Image Resize"
+msgstr "Image Resize"
+
+#: converter/templates/converter/image_compress.html:56
+msgid "Resize Image"
+msgstr "Resize Image"
+
+#: converter/templates/converter/image_compress.html:63
+#: converter/templates/converter/image_to_pdf.html:64
+#: converter/templates/converter/image_to_text.html:72
+#: converter/templates/converter/jpg_to_png.html:67
+#: converter/templates/converter/pdf_to_docx.html:65
+#: converter/templates/converter/pdf_to_image.html:65
+#: converter/templates/converter/webp_to_jpg.html:62
+msgid "Drag and drop files here to upload"
+msgstr "Drag and drop files here to upload"
+
+#: converter/templates/converter/image_compress.html:66
+msgid "Resize Images"
+msgstr "Resize Images"
+
+#: converter/templates/converter/image_compress.html:74
+#: converter/templates/converter/image_to_pdf.html:76
+#: converter/templates/converter/image_to_text.html:81
+#: converter/templates/converter/jpg_to_png.html:76
+#: converter/templates/converter/pdf_to_docx.html:74
+#: converter/templates/converter/pdf_to_image.html:75
+#: converter/templates/converter/webp_to_jpg.html:71
+msgid "Download"
+msgstr "Download"
+
+#: converter/templates/converter/image_to_pdf.html:7
+#: converter/templates/converter/image_to_pdf.html:17
+#: converter/templates/converter/image_to_pdf.html:57
+msgid "Image to PDF"
+msgstr "Image to PDF"
+
+#: converter/templates/converter/image_to_pdf.html:67
+msgid "Convert To PDF"
+msgstr "Convert To PDF"
+
+#: converter/templates/converter/image_to_text.html:7
+#: converter/templates/converter/image_to_text.html:17
+#: converter/templates/converter/image_to_text.html:57
+msgid "Image To Text"
+msgstr "Image To Text"
+
+#: converter/templates/converter/image_to_text.html:63
+msgid "choose the image language :"
+msgstr "choose the image language :"
+
+#: converter/templates/converter/image_to_text.html:75
+msgid "Convert To Text"
+msgstr "Convert To Text"
+
+#: converter/templates/converter/jpg_to_png.html:7
+#: converter/templates/converter/jpg_to_png.html:17
+msgid "JPG To PNG"
+msgstr "JPG To PNG"
+
+#: converter/templates/converter/jpg_to_png.html:59
+msgid "JPG to PNG"
+msgstr "JPG to PNG"
+
+#: converter/templates/converter/jpg_to_png.html:70
+msgid "Convert To PNG"
+msgstr "Convert To PNG"
+
+#: converter/templates/converter/pdf_to_docx.html:7
+#: converter/templates/converter/pdf_to_docx.html:17
+#: converter/templates/converter/pdf_to_docx.html:57
+msgid "PDF To Docx"
+msgstr "PDF To Docx"
+
+#: converter/templates/converter/pdf_to_docx.html:68
+msgid "Convert To Docx"
+msgstr "Convert To Docx"
+
+#: converter/templates/converter/pdf_to_image.html:7
+#: converter/templates/converter/pdf_to_image.html:17
+#: converter/templates/converter/pdf_to_image.html:58
+msgid "Pdf To Image"
+msgstr "Pdf To Image"
+
+#: converter/templates/converter/pdf_to_image.html:68
+msgid "Convert To Image"
+msgstr "Convert To Image"
+
+#: converter/templates/converter/search_results.html:5
+msgid "search_results"
+msgstr "search_results"
+
+#: converter/templates/converter/search_results.html:14
+msgid "Search Results For"
+msgstr "Search Results For"
+
+#: converter/templates/converter/search_results.html:33
+#: converter/templates/include/tools.html:8
+msgid "Tools"
+msgstr "Tools"
+
+#: converter/templates/converter/services.html:16
+#: useraccount/templates/auth_include/navbar.html:46
+msgid "Services"
+msgstr "Services"
+
+#: converter/templates/converter/services.html:35
+msgid "Our Team services"
+msgstr "Our Team services"
+
+#: converter/templates/converter/webp_to_jpg.html:6
+#: converter/templates/converter/webp_to_jpg.html:17
+#: converter/templates/converter/webp_to_jpg.html:56
+msgid "WEBP to JPG"
+msgstr "WEBP to JPG"
+
+#: converter/templates/converter/webp_to_jpg.html:65
+msgid "Convert To JPG"
+msgstr "Convert To JPG"
+
+#: converter/templates/errors/400.html:5 converter/templates/errors/400.html:15
+#: converter/templates/errors/400.html:27
+msgid "400 BAD REQUEST"
+msgstr "400 BAD REQUEST"
+
+#: converter/templates/errors/400.html:29
+msgid "Your Browser Sent An Invalid Request."
+msgstr "Your Browser Sent An Invalid Request."
+
+#: converter/templates/errors/400.html:31
+#: converter/templates/errors/403.html:31
+#: converter/templates/errors/404.html:31
+#: converter/templates/errors/500.html:31
+msgid "Go to Homepage"
+msgstr "Go to Homepage"
+
+#: converter/templates/errors/403.html:5 converter/templates/errors/403.html:15
+#: converter/templates/errors/403.html:27
+msgid "403 Forbidden"
+msgstr "403 Forbidden"
+
+#: converter/templates/errors/403.html:29
+msgid "Sorry, but requested sourse is not available for you."
+msgstr "Sorry, but requested sourse is not available for you."
+
+#: converter/templates/errors/404.html:5
+msgid "Page Not Found"
+msgstr "Page Not Found"
+
+#: converter/templates/errors/404.html:15
+msgid "404 - Page Not Found"
+msgstr "404 - Page Not Found"
+
+#: converter/templates/errors/404.html:29
+msgid "Sorry, the page you are looking for does not exist."
+msgstr "Sorry, the page you are looking for does not exist."
+
+#: converter/templates/errors/500.html:5 converter/templates/errors/500.html:15
+#: converter/templates/errors/500.html:27
+msgid "500 This Page Isn't Working!"
+msgstr "500 This Page Isn't Working!"
+
+#: converter/templates/errors/500.html:29
+msgid "Please Try Again Later Or Feel Free To Countact Us."
+msgstr "Please Try Again Later Or Feel Free To Countact Us."
+
+#: converter/templates/include/footer.html:15
+#: useraccount/templates/auth_include/navbar.html:89
+msgid "Facebook"
+msgstr "Facebook"
+
+#: converter/templates/include/footer.html:21
+#: useraccount/templates/auth_include/navbar.html:96
+msgid "Instagram"
+msgstr "Instagram"
+
+#: converter/templates/include/footer.html:27
+#: useraccount/templates/auth_include/navbar.html:103
+msgid "Twitter"
+msgstr "Twitter"
+
+#: converter/templates/include/footer.html:33
+#: useraccount/templates/account/dashboard.html:167
+#: useraccount/templates/account/login.html:54
+#: useraccount/templates/account/password_reset_confirm.html:69
+#: useraccount/templates/account/password_reset_form.html:52
+#: useraccount/templates/account/register.html:67
+#: useraccount/templates/auth_include/navbar.html:110
+msgid "Github"
+msgstr "Github"
+
+#: converter/templates/include/footer.html:40
+#: useraccount/templates/auth_include/footer.html:16
+msgid "About Us"
+msgstr "About Us"
+
+#: converter/templates/include/footer.html:43
+#: useraccount/templates/auth_include/footer.html:19
+msgid "Blog"
+msgstr "Blog"
+
+#: converter/templates/include/navbar.html:104
+msgid "Welcome!"
+msgstr "Welcome!"
+
+#: converter/templates/include/navbar.html:108
+msgid "My profile"
+msgstr "My profile"
+
+#: converter/templates/include/navbar.html:112
+msgid "Support"
+msgstr "Support"
+
+#: converter/templates/include/navbar.html:117
+msgid "Logout"
+msgstr "Logout"
+
+#: converter/templates/include/navbar.html:122
+msgid "Log-in"
+msgstr "Log-in"
+
+#: converter/views.py:115
+msgid "No PNG to download"
+msgstr "No PNG to download"
+
+#: converter/views.py:166
+msgid "No Jpg to download"
+msgstr "No Jpg to download"
+
+#: converter/views.py:240
+msgid "No PDF to download"
+msgstr "No PDF to download"
+
+#: converter/views.py:317 converter/views.py:375
+msgid "No Image to download"
+msgstr "No Image to download"
+
+#: converter/views.py:416
+msgid "No text to download"
+msgstr "No text to download"
+
+#: converter/views.py:472
+msgid "No Docx to download"
+msgstr "No Docx to download"
+
+#: useraccount/forms.py:16 useraccount/forms.py:109
+#: useraccount/templates/account/dashboard.html:181
+#: useraccount/templates/account/dashboard.html:187
+msgid "Email"
+msgstr "Email"
+
+#: useraccount/forms.py:24 useraccount/forms.py:81
+msgid "Password"
+msgstr "Password"
+
+#: useraccount/forms.py:39
+msgid "Old Password"
+msgstr "Old Password"
+
+#: useraccount/forms.py:42 useraccount/forms.py:67
+msgid "New Password"
+msgstr "New Password"
+
+#: useraccount/forms.py:46 useraccount/forms.py:71
+msgid "Confirm New Password"
+msgstr "Confirm New Password"
+
+#: useraccount/forms.py:57
+msgid "Add your Email"
+msgstr "Add your Email"
+
+#: useraccount/forms.py:92
+msgid "Repeat Password"
+msgstr "Repeat Password"
+
+#: useraccount/forms.py:116 useraccount/forms.py:149
+msgid "Username"
+msgstr "Username"
+
+#: useraccount/forms.py:124
+msgid "Passwords don't match"
+msgstr "Passwords don't match"
+
+#: useraccount/forms.py:131
+msgid "This Email Already exists"
+msgstr "This Email Already exists"
+
+#: useraccount/forms.py:152
+msgid "First Name"
+msgstr "First Name"
+
+#: useraccount/forms.py:155
+msgid "Last Name"
+msgstr "Last Name"
+
+#: useraccount/forms.py:158
+msgid "Email address"
+msgstr "Email address"
+
+#: useraccount/forms.py:171
+msgid "This email already exists."
+msgstr "This email already exists."
+
+#: useraccount/templates/account/change_password.html:6
+#: useraccount/templates/account/password_reset_confirm.html:6
+#: useraccount/templates/account/password_reset_done.html:6
+#: useraccount/templates/account/register.html:6
+#: useraccount/templates/account/security.html:44
+msgid "Change Password"
+msgstr "Change Password"
+
+#: useraccount/templates/account/change_password.html:17
+#: useraccount/templates/account/change_password.html:36
+#: useraccount/templates/account/password_reset_confirm.html:79
+msgid "Change Your Password"
+msgstr "Change Your Password"
+
+#: useraccount/templates/account/change_password.html:72
+#: useraccount/templates/account/password_reset_confirm.html:105
+#: useraccount/templates/account/password_reset_form.html:76
+msgid "Remember me"
+msgstr "Remember me"
+
+#: useraccount/templates/account/change_password.html:75
+#: useraccount/templates/account/password_reset_confirm.html:108
+#: useraccount/templates/account/security.html:47
+msgid "Change"
+msgstr "Change"
+
+#: useraccount/templates/account/dashboard.html:6
+#: useraccount/templates/account/dashboard.html:83
+msgid "Dashboard"
+msgstr "Dashboard"
+
+#: useraccount/templates/account/dashboard.html:110
+#: useraccount/templates/auth_include/sidenav.html:58
+msgid "Profile"
+msgstr "Profile"
+
+#: useraccount/templates/account/dashboard.html:116
+msgid "Username :"
+msgstr "Username :"
+
+#: useraccount/templates/account/dashboard.html:119
+msgid "First Name :"
+msgstr "First Name :"
+
+#: useraccount/templates/account/dashboard.html:122
+msgid "Add First Name"
+msgstr "Add First Name"
+
+#: useraccount/templates/account/dashboard.html:126
+msgid "Last Name :"
+msgstr "Last Name :"
+
+#: useraccount/templates/account/dashboard.html:129
+msgid "Add Last Name"
+msgstr "Add Last Name"
+
+#: useraccount/templates/account/dashboard.html:133
+msgid "Date Joined :"
+msgstr "Date Joined :"
+
+#: useraccount/templates/account/dashboard.html:136
+msgid "Change your info"
+msgstr "Change your info"
+
+#: useraccount/templates/account/dashboard.html:137
+msgid "Plans & Packages"
+msgstr "Plans & Packages"
+
+#: useraccount/templates/account/dashboard.html:149
+msgid "Social links"
+msgstr "Social links"
+
+#: useraccount/templates/account/dashboard.html:155
+msgid "Connect your social accounts to log in through Github or Google."
+msgstr "Connect your social accounts to log in through Github or Google."
+
+#: useraccount/templates/account/dashboard.html:163
+msgid "Link more social network accounts."
+msgstr "Link more social network accounts."
+
+#: useraccount/templates/account/dashboard.html:171
+#: useraccount/templates/account/login.html:58
+#: useraccount/templates/account/password_reset_confirm.html:73
+#: useraccount/templates/account/password_reset_form.html:56
+#: useraccount/templates/account/register.html:71
+msgid "Google"
+msgstr "Google"
+
+#: useraccount/templates/account/edit.html:5
+msgid "Edit"
+msgstr "Edit"
+
+#: useraccount/templates/account/edit.html:44
+#: useraccount/templates/account/edit.html:139
+msgid "Update"
+msgstr "Update"
+
+#: useraccount/templates/account/edit.html:67
+msgid "Edit Your Profile"
+msgstr "Edit Your Profile"
+
+#: useraccount/templates/account/edit.html:88
+msgid "Delete profile image"
+msgstr "Delete profile image"
+
+#: useraccount/templates/account/login.html:8
+#: useraccount/templates/account/register.html:128
+msgid "Login"
+msgstr "Login"
+
+#: useraccount/templates/account/login.html:19
+msgid "Log'in To Your Account"
+msgstr "Log'in To Your Account"
+
+#: useraccount/templates/account/login.html:49
+#: useraccount/templates/account/password_reset_confirm.html:64
+#: useraccount/templates/account/password_reset_form.html:47
+#: useraccount/templates/account/register.html:62
+msgid "Sign in with"
+msgstr "Sign in with"
+
+#: useraccount/templates/account/login.html:64
+msgid "sign in with email"
+msgstr "sign in with email"
+
+#: useraccount/templates/account/login.html:85
+msgid "Sign in"
+msgstr "Sign in"
+
+#: useraccount/templates/account/login.html:92
+#: useraccount/templates/account/password_reset_form.html:86
+#: useraccount/templates/account/register.html:125
+msgid "Forgot password?"
+msgstr "Forgot password?"
+
+#: useraccount/templates/account/login.html:95
+#: useraccount/templates/account/password_reset_form.html:89
+msgid "Create new account"
+msgstr "Create new account"
+
+#: useraccount/templates/account/password_reset_done.html:21
+msgid "Reset your password"
+msgstr "Reset your password"
+
+#: useraccount/templates/account/password_reset_done.html:23
+msgid "We've emailed you instructions for setting your password."
+msgstr "We've emailed you instructions for setting your password."
+
+#: useraccount/templates/account/password_reset_done.html:25
+msgid ""
+"If you don't receive an email, please make sure you've entered the address "
+"you registered with."
+msgstr ""
+"If you don't receive an email, please make sure you've entered the address "
+"you registered with."
+
+#: useraccount/templates/account/password_reset_form.html:6
+msgid "Password Reset"
+msgstr "Password Reset"
+
+#: useraccount/templates/account/password_reset_form.html:62
+msgid "Reset Your Password With Email"
+msgstr "Reset Your Password With Email"
+
+#: useraccount/templates/account/password_reset_form.html:79
+msgid "Reset"
+msgstr "Reset"
+
+#: useraccount/templates/account/register.html:118
+msgid "Create account"
+msgstr "Create account"
+
+#: useraccount/templates/account/security.html:6
+#: useraccount/templates/account/security.html:15
+#: useraccount/templates/auth_include/sidenav.html:71
+msgid "Security"
+msgstr "Security"
+
+#: useraccount/templates/account/security.html:55
+msgid ""
+"Enhance Your Account Security by Updating Your Password to a Stronger One."
+msgstr ""
+"Enhance Your Account Security by Updating Your Password to a Stronger One."
+
+#: useraccount/templates/account/security.html:70
+msgid "Two factor authentication"
+msgstr "Two factor authentication"
+
+#: useraccount/templates/account/security.html:73
+msgid "Enable"
+msgstr "Enable"
+
+#: useraccount/templates/account/security.html:81
+msgid "Upgrade Your Account Security with Two Factor Authentication."
+msgstr "Upgrade Your Account Security with Two Factor Authentication."
+
+#: useraccount/templates/account/security.html:84
+msgid ""
+"Enable Two Factor Authentication to add an extra layer of protection to your "
+"account."
+msgstr ""
+"Enable Two Factor Authentication to add an extra layer of protection to your "
+"account."
+
+#: useraccount/templates/account/security.html:87
+msgid "Status:"
+msgstr "Status:"
+
+#: useraccount/templates/account/security.html:87
+msgid "Disable"
+msgstr "Disable"
+
+#: useraccount/templates/account/settings.html:6
+#: useraccount/templates/account/settings.html:15
+#: useraccount/templates/account/settings.html:36
+#: useraccount/templates/auth_include/sidenav.html:87
+#: useraccount/templates/auth_include/sidenav.html:94
+msgid "Settings"
+msgstr "Settings"
+
+#: useraccount/templates/account/settings.html:42
+msgid "Options"
+msgstr "Options"
+
+#: useraccount/templates/account/settings.html:43
+msgid "Detail"
+msgstr "Detail"
+
+#: useraccount/templates/account/settings.html:44
+msgid "Active"
+msgstr "Active"
+
+#: useraccount/templates/account/settings.html:56
+msgid "Enable email notifications"
+msgstr "Enable email notifications"
+
+#: useraccount/templates/account/settings.html:60
+msgid ""
+"You will receive an email notification when a receiver has completed their "
+"request."
+msgstr ""
+"You will receive an email notification when a receiver has completed their "
+"request."
+
+#: useraccount/templates/account/settings.html:75
+msgid "Set language"
+msgstr "Set language"
+
+#: useraccount/templates/account/settings.html:79
+msgid "Notifications will be sent in English."
+msgstr "Notifications will be sent in English."
+
+#: useraccount/templates/account/settings.html:94
+msgid "Change expiration date"
+msgstr "Change expiration date"
+
+#: useraccount/templates/account/settings.html:98
+msgid "The document will expire in 15 days."
+msgstr "The document will expire in 15 days."
+
+#: useraccount/templates/account/settings.html:115
+msgid "Multiple requests"
+msgstr "Multiple requests"
+
+#: useraccount/templates/account/settings.html:119
+msgid ""
+"This option will allow each signer to receive a unique and separate request "
+"to sign individually."
+msgstr ""
+"This option will allow each signer to receive a unique and separate request "
+"to sign individually."
+
+#: useraccount/templates/account/settings.html:135
+msgid "Save"
+msgstr "Save"
+
+#: useraccount/templates/auth_include/navbar.html:40
+msgid "About us"
+msgstr "About us"
+
+#: useraccount/templates/auth_include/navbar.html:87
+msgid "Like us on Facebook"
+msgstr "Like us on Facebook"
+
+#: useraccount/templates/auth_include/navbar.html:94
+msgid "Follow us on Instagram"
+msgstr "Follow us on Instagram"
+
+#: useraccount/templates/auth_include/navbar.html:101
+msgid "Follow us on Twitter"
+msgstr "Follow us on Twitter"
+
+#: useraccount/templates/auth_include/navbar.html:108
+msgid "Star us on Github"
+msgstr "Star us on Github"
+
+#: useraccount/templates/auth_include/sidenav.html:65
+msgid "My Account"
+msgstr "My Account"
+
+#: useraccount/templates/auth_include/sidenav.html:77
+msgid "Activity"
+msgstr "Activity"
+
+#: useraccount/templates/registration/password_reset_email.html:2
+msgid "Someone asked for a password reset for email"
+msgstr "Someone asked for a password reset for email"
+
+#: useraccount/templates/registration/password_reset_email.html:2
+msgid "Follow the link below:"
+msgstr "Follow the link below:"
+
+#: useraccount/views.py:36
+msgid "Authenticated Successfully"
+msgstr "Authenticated Successfully"
+
+#: useraccount/views.py:39
+msgid "Disabled account"
+msgstr "Disabled account"
+
+#: useraccount/views.py:41
+msgid "Invalid login"
+msgstr "Invalid login"
+
+#: useraccount/views.py:51
+msgid "You have been logged out successfully"
+msgstr "You have been logged out successfully"
+
+#: useraccount/views.py:75
+msgid "Your password has been successfully changed"
+msgstr "Your password has been successfully changed"
+
+#: useraccount/views.py:87
+msgid "Your password has been successfully changed you can login now"
+msgstr "Your password has been successfully changed you can login now"
+
+#: useraccount/views.py:109
+msgid "Your account has been successfully created"
+msgstr "Your account has been successfully created"
+
+#: useraccount/views.py:112
+msgid "Please correct the errors below"
+msgstr "Please correct the errors below"
+
+#: useraccount/views.py:132
+msgid "Your Profile Updated Successfully!"
+msgstr "Your Profile Updated Successfully!"
+
+#: useraccount/views.py:135
+msgid "Correct the errors below"
+msgstr "Correct the errors below"
+
+#~ msgid "Image"
+#~ msgstr "Image"
+
+#~ msgid "Image To PDF"
+#~ msgstr "Image To PDF"
+
+#~ msgid "Webp To JPG"
+#~ msgstr "Webp To JPG"
+
+#~ msgid "PDF"
+#~ msgstr "PDF"
+
+#~ msgid "PDF To Images"
+#~ msgstr "PDF To Images"

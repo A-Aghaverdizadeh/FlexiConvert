@@ -1,0 +1,147 @@
+{% extends 'base.html' %}
+{% load i18n %}
+
+{% block title %}
+  {% trans 'Edit' %}
+{% endblock %}
+
+{% block content %}
+
+<div class="header bg-primary pb-6">
+    <div class="container-fluid">
+      <div class="header-body">
+        {% if messages %}
+          {% for message in messages %}
+            <div class="alert {% if message.tags == 'error' %}
+                
+                  alert-danger alert-dismissible fade show
+
+              {% elif message.tags == 'warning' %}
+                
+                  alert-warning alert-dismissible fade show
+
+              {% elif message.tags == 'info' %}
+                
+                  alert-info alert-dismissible fade show
+
+              {% elif message.tags == 'success' %}
+                
+                  alert-success alert-dismissible fade show
+
+
+              {% endif %}"
+              role="alert">
+              <span class="alert-icon"><i class="ni ni-like-2"></i></span>
+              <span class="alert-text">{{ message|safe }}</span>
+              <button type="button" class="close" data-dismiss="alert" aria-label="Close">
+                <span aria-hidden="true">×</span>
+              </button>
+            </div>
+          {% endfor %}
+        {% endif %}
+        <div class="row align-items-center py-4">
+          <div class="col-lg-6 col-7">
+            <h6 class="h2 text-white d-inline-block mb-0">{% trans 'Update' %}</h6>
+            <nav aria-label="breadcrumb" class="d-none d-md-inline-block ml-md-4">
+              <ol class="breadcrumb breadcrumb-links breadcrumb-dark">
+                <li class="breadcrumb-item">
+                  <a href="{% url 'home' %}"><i class="fas fa-home"></i></a>
+                </li>
+              </ol>
+            </nav>
+          </div>
+          <div class="col-lg-6 col-5 text-right"></div>
+        </div>
+        <!-- Card stats -->
+        <div class="row"></div>
+      </div>
+    </div>
+  </div>
+<div class="container-fluid mt--5">
+    <div class="row card-wrapper">
+        <div class="col-lg-12">
+
+
+            <div class="card">
+                <div class="card-header">
+                    <h3 class="mb-0">{% trans 'Edit Your Profile' %}</h3>
+                </div>
+                <!-- Card body -->
+                <div class="card-body">
+                    
+                    {% if request.user.profile.image %}
+                        <img src="{{ request.user.profile.image.url }}"
+                        class="rounded-circle img-center img-fluid shadow shadow-lg--hover"
+                        style="width: 140px; height: 140px;"><br>
+                    {% endif %}
+                    <form id="editForm" method="post" enctype="multipart/form-data">
+                        {% csrf_token %}
+                        <div class="custom-file">
+                            {{ profile_form.image }}
+                            <label class="custom-file-label" for="customFileLang"></label>
+                        </div><br><br>
+                        {% if request.user.profile.image %}
+                        <div class="custom-control custom-checkbox mb-3">
+                            {% comment %} <input class="custom-control-input" id="customCheck1" type="checkbox"> {% endcomment %}
+                            {{ profile_form.delete_image }}
+                            <label class="custom-control-label" for="customCheck1">{% trans 'Delete profile image' %}</label>
+                        </div>{% endif %}
+                        
+                        <br>
+                        <div class="row">
+                            <div class="col-md-6">
+                                <div class="form-group">
+                                    <div class="input-group {% if user_form.username.errors %}has-danger{% endif %} input-group-merge">
+                                        <div class="input-group-prepend">
+                                            <span class="input-group-text"><i class="fas fa-user"></i></span>
+                                        </div>
+                                        {{ user_form.username }}
+                                    </div>
+                                    <div style="color: #fb6340;">{{ user_form.username.errors }}</div>
+                                </div>
+                            </div>
+                            <div class="col-md-6">
+                                <div class="form-group">
+                                    <div class="input-group {% if user_form.email.errors %}has-danger{% endif %} input-group-merge">
+                                        <div class="input-group-prepend">
+                                            <span class="input-group-text"><i
+                                                    class="fas fa-envelope"></i></span>
+                                        </div>
+                                        {{ user_form.email }}
+                                    </div>
+                                    <div style="color: #fb6340;">{{ user_form.email.errors }}</div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-md-6">
+                                <div class="form-group">
+                                    <div class="input-group input-group-merge">
+                                        <div class="input-group-prepend">
+                                            <span class="input-group-text"><i class="fas fa-user"></i></span>
+                                        </div>
+                                        {{ user_form.first_name }}
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-md-6">
+                                <div class="form-group">
+                                    <div class="input-group input-group-merge">
+                                        <div class="input-group-prepend">
+                                            <span class="input-group-text"><i class="fas fa-user"></i></span>
+                                        </div>
+                                        {{ user_form.last_name }}
+                                    </div>  
+                                </div>
+                            </div>
+                        </div><br>
+                        <button type="submit" class="btn btn-primary btn-lg btn-block">{% trans 'Update' %}</button>
+                    </form>
+
+            </div>
+        </div>
+    </div>
+</div>
+{% endblock %}
+
+

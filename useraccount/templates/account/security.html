@@ -1,0 +1,94 @@
+{% extends 'base.html' %}
+{% load static %}
+{% load i18n %}
+
+{% block title %}
+  {% trans 'Security' %}
+{% endblock %}
+
+{% block content %}
+  <div class="header bg-primary pb-6">
+    <div class="container-fluid">
+      <div class="header-body">
+        <div class="row align-items-center py-4">
+          <div class="col-lg-6 col-7">
+            <h6 class="h2 text-white d-inline-block mb-0">{% trans 'Security' %}</h6>
+            <nav aria-label="breadcrumb" class="d-none d-md-inline-block ml-md-4">
+              <ol class="breadcrumb breadcrumb-links breadcrumb-dark">
+                <li class="breadcrumb-item">
+                  <a href="{% url 'home' %}"><i class="fas fa-home"></i></a>
+                </li>
+              </ol>
+            </nav>
+          </div>
+          <div class="col-lg-6 col-5 text-right"></div>
+        </div>
+        <!-- Card stats -->
+        <div class="row"></div>
+      </div>
+    </div>
+  </div>
+
+  <div class="container-fluid mt--5">
+    <div class="row card-wrapper">
+      <div class="col-lg-5">
+        <!-- Basic with list group -->
+        <div class="card">
+          <!-- Card image -->
+
+          <!-- List group -->
+          <div class="card-header">
+            <div class="row align-items-center">
+              <div class="col-8">
+                <!-- Title -->
+                <h5 class="h3 mb-0"><strong>{% trans 'Change Password' %}</strong></h5>
+              </div>
+              <div class="col-4 text-right">
+                <a href="{% url 'password_change' %}" class="btn btn-sm btn-neutral">{% trans 'Change' %}</a>
+              </div>
+              <div></div>
+            </div>
+          </div>
+          <!-- Card body -->
+          <div class="card-body">
+            <p class="card-text mb-4" align="center">
+              <strong>{% trans 'Enhance Your Account Security by Updating Your Password to a Stronger One.' %}</strong>
+            </p>
+          </div>
+        </div>
+      </div>
+      <div class="col-lg-5">
+        <!-- Basic with list group -->
+        <div class="card">
+          <!-- Card image -->
+
+          <!-- List group -->
+          <div class="card-header">
+            <div class="row align-items-center">
+              <div class="col-8">
+                <!-- Title -->
+                <h5 class="h3 mb-0"><strong>{% trans 'Two factor authentication' %}</strong></h5>
+              </div>
+              <div class="col-4 text-right">
+                <a href="#" class="btn btn-sm btn-neutral">{% trans 'Enable' %}</a>
+              </div>
+              <div></div>
+            </div>
+          </div>
+          <!-- Card body -->
+          <div class="card-body">
+            <p class="card-text mb-4" align="center">
+              <strong>{% trans 'Upgrade Your Account Security with Two Factor Authentication.' %}</strong>
+            </p>
+            <p class="card-text mb-4" align="center">
+              <strong>{% trans 'Enable Two Factor Authentication to add an extra layer of protection to your account.' %}</strong>
+            </p>
+            <p class="card-text mb-4">
+              <strong>{% trans 'Status:' %}</strong> {% trans 'Disable' %}
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div><br /><br /><br /><br /><br /><br /><br /><br /><br />
+{% endblock %}

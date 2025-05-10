@@ -1,0 +1,116 @@
+{% load static %}
+{% load i18n %}
+
+<html lang="fa">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+    <title>{% block title %}{% endblock %} | {% trans 'FlexiConvert' %}</title>
+    <!-- <link rel="stylesheet" href="{% static 'css/font-awesome.css' %}"> -->
+    <link rel="stylesheet" href="{% static 'fontawesome/css/all.css' %}">
+
+    <!-- Favicon -->
+    <link rel="icon" href="{% static 'img/brand/Favicon3.png' %}" type="image/png" />
+
+    <!-- Argon CSS -->
+    {% get_current_language as LANGUAGE_CODE %}
+    {% if LANGUAGE_CODE == 'fa' %}
+      <link rel="stylesheet" href="{% static 'css/argon-rtl.css' %}" />
+      <link rel="stylesheet" href="{% static 'vendor/bootstrap-rtl/bootstrap-rtl.css' %}" />
+      <link rel="stylesheet" href="{% static 'css/rtl-font.css' %}" />
+      <link rel="stylesheet" href="{% static 'vendor/nucleo/css/rtl_nucleo.css' %}" type="text/css" />
+    {% else %}
+      <link rel="stylesheet" href="{% static 'css/font.css' %}" type="text/css" />
+      <link rel="stylesheet" href="{% static 'vendor/nucleo/css/nucleo.css' %}" type="text/css" />
+      <!-- Argon CSS -->
+      <link rel="stylesheet" href="{% static 'css/argon.css' %}" type="text/css" />
+    {% endif %}
+
+    <link rel="stylesheet" href="{% static 'css/base.css' %}" />
+  </head>
+
+  <body>
+    {% include 'auth_include/sidenav.html' %}
+
+    <div class="main-content" id="panel">
+      {% include 'include/navbar.html' %}
+      {% block content %}
+
+      {% endblock %}
+      {% include 'include/footer.html' %}
+    </div>
+
+    <script>
+      const fileConfig = {
+        jpg_to_png: {
+          types: ["image/jpeg"],
+          maxFiles: 7,
+          alertMsg: "{% trans 'Please upload only JPG files.' %}"
+        },
+        webp_to_jpg: {
+          types: ["image/webp"],
+          maxFiles: 5,
+          alertMsg: "{% trans 'Please upload only WEBP files.' %}"
+        },
+        image_to_pdf: {
+          types: ["image/jpeg", "image/png"],
+          maxFiles: 10,
+          alertMsg: "{% trans 'Please upload only JPG or PNG files.' %}"
+        },
+        image_compress: {
+          types: ["image/jpeg", "image/png", "image/webp"],
+          maxFiles: 5,
+          alertMsg: "{% trans 'Please upload JPG, PNG, or WEBP files.' %}"
+        },
+        image_to_text: {
+          types: ["image/jpeg", "image/png", "image/webp"],
+          maxFiles: 1,
+          alertMsg: "{% trans 'Please upload JPG, PNG, or WEBP files.' %}"
+        },
+        pdf_to_image: {
+          types: ["application/pdf"],
+          maxFiles: 1,
+          alertMsg: "{% trans 'Please upload a PDF file.' %}"
+        },
+        pdf_to_docx: {
+          types: ["application/pdf"],
+          maxFiles: 1,
+          alertMsg: "{% trans 'Please upload a PDF file.' %}"
+        },
+        ppt_to_pdf: {
+          types: [
+            "application/vnd.ms-powerpoint",
+            "application/vnd.openxmlformats-officedocument.presentationml.presentation"
+          ],
+          maxFiles: 1,
+          alertMsg: "{% trans 'Please upload a PPT or PPTX file.' %}"
+        }
+      };
+
+      const translations = {
+        unsupported : "{% trans 'Unsupported file operation.' %}",
+        maxFiles: "{% trans 'You can upload a maximum of' %}",
+        fileSuffix: "{% trans 'file(s).' %}"
+      }
+    </script>
+
+    <script type="text/javascript" src="{% static 'js/jquery.js' %}"></script>
+    <script type="text/javascript" src="{% static 'js/base.js' %}"></script>
+    {% block javascript %}
+
+    {% endblock %}
+
+    <script src="{% static 'vendor/jquery/dist/jquery.min.js' %}"></script>
+    <script src="{% static 'vendor/bootstrap/dist/js/bootstrap.bundle.min.js' %}"></script>
+    <script src="{% static 'vendor/js-cookie/js.cookie.js' %}"></script>
+    <script src="{% static 'vendor/jquery.scrollbar/jquery.scrollbar.min.js' %}"></script>
+    <script src="{% static 'vendor/jquery-scroll-lock/dist/jquery-scrollLock.min.js' %}"></script>
+    <script src="{% static 'fontawesome/js/all.js' %}"></script>
+
+
+    <script src="{% static 'vendor/chart.js/dist/Chart.min.js' %}"></script>
+    <script src="{% static 'vendor/chart.js/dist/Chart.extension.js' %}"></script>
+    <!-- Argon JS -->
+    <script src="{% static 'js/argon.js' %}"></script>
+  </body>
+</html>

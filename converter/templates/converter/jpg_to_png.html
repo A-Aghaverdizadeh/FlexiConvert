@@ -1,0 +1,90 @@
+{% extends 'base.html' %}
+{% load static %}
+
+{% load i18n %}
+
+{% block title %}
+  {% trans "JPG To PNG" %}
+{% endblock %}
+
+{% block content %}
+  <div class="main-content" id="panel">
+    <div class="header bg-primary pb-6">
+      <div class="container-fluid">
+        <div class="header-body">
+          <div class="row align-items-center py-4">
+            <div class="col-lg-6 col-7">
+              <h6 class="h2 text-white d-inline-block mb-0">{% trans 'JPG To PNG' %}</h6>
+              <nav aria-label="breadcrumb" class="d-none d-md-inline-block ml-md-4">
+                <ol class="breadcrumb breadcrumb-links breadcrumb-dark">
+                  <li class="breadcrumb-item">
+                    <a href="{% url 'home' %}"><i class="fas fa-home"></i></a>
+                  </li>
+                </ol>
+              </nav>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="container-fluid mt--5">
+      <div class="row">
+        <div class="col-lg-12">
+          <div class="card-wrapper">
+            <div class="card">
+              <div class="card-header">
+                {% if messages %}
+                  {% for message in messages %}
+                    <div class="alert alert-danger alert-dismissible fade show" role="alert">
+                      <span class="alert-icon"><i class="ni ni-like-2"></i></span>
+                      <span class="alert-text">{{ message }}</span>
+                      <button type="button" class="close" data-dismiss="alert" aria-label="Close">
+                        <span aria-hidden="true">×</span>
+                      </button>
+                    </div>
+                  {% endfor %}
+                {% endif %}
+
+                <div id="customAlert" class="alert alert-danger alert-dismissible fade show" role="alert" style="display: none;">
+                  <span class="alert-icon">
+                    <i class="ni ni-like-2"></i>
+                  </span>
+                  <span id="alertMessage" class="alert-text"></span>
+                  <button type="button" class="close" data-dismiss="alert" aria-label="Close">
+                    <span aria-hidden="true">×</span>
+                  </button>
+                </div>  
+
+                <h3 class="mb-0">{% trans 'JPG to PNG' %}</h3>
+              </div>
+
+              <div class="card-body">
+                <form id="formjpg_to_png" method="post" enctype="multipart/form-data">
+                  {% csrf_token %}
+                  <div id="dropzone" class="custom-dropzone">
+                    <p>
+                      {% trans 'Drag and drop files here to upload' %}
+                    </p> {{ form.file }}
+                  </div>
+                  <button type="submit" class="btn btn-primary mt-3">{% trans 'Convert To PNG' %}</button>
+                  <img id="img_loading" src="{% static 'img\loading.gif' %}" alt="" style="display:none;" />
+                </form>
+                <div class="container quote-imgs-thumbs quote-imgs-thumbs--hidden" id="result" aria-live="polite"></div>
+
+                <div>
+                  <a class="btn btn-success mt-3" href="" id="btn_download_jpg_to_png" style="display: none;">{% trans 'Download' %}</a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    {% include 'include/tools.html' %}
+  </div>
+{% endblock %}
+
+{% block javascript %}
+
+{% endblock %}

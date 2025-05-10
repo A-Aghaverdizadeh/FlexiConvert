@@ -1,0 +1,837 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2025-05-07 18:09+0000\n"
+"PO-Revision-Date: 2025-05-07 18:15+0000\n"
+"Last-Translator:   <amiraghaverdigit@gmail.com>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n > 1);\n"
+"X-Translated-Using: django-rosetta 0.10.0\n"
+
+#: converter/forms.py:10
+msgid "Search Tools"
+msgstr "جستجو کردن ابزار"
+
+#: converter/forms.py:93 service/settings.py:184
+msgid "English"
+msgstr "انگلیسی"
+
+#: converter/forms.py:94 service/settings.py:185
+msgid "Persian"
+msgstr "فارسی"
+
+#: converter/templates/base.html:8 converter/templates/converter/home.html:16
+#: useraccount/templates/auth_base.html:9
+msgid "FlexiConvert"
+msgstr "فلکسی"
+
+#: converter/templates/base.html:48
+msgid "Please upload only JPG files."
+msgstr "لطفاً فقط فایل‌های JPG آپلود کنید."
+
+#: converter/templates/base.html:53
+msgid "Please upload only WEBP files."
+msgstr "لطفاً فقط فایل‌های WEBP آپلود کنید."
+
+#: converter/templates/base.html:58
+msgid "Please upload only JPG or PNG files."
+msgstr "لطفاً فقط فایل‌های JPG یا PNG آپلود کنید."
+
+#: converter/templates/base.html:63 converter/templates/base.html:68
+msgid "Please upload JPG, PNG, or WEBP files."
+msgstr "لطفاً فایل‌های JPG، PNG یا WEBP آپلود کنید."
+
+#: converter/templates/base.html:73 converter/templates/base.html:78
+msgid "Please upload a PDF file."
+msgstr "لطفاً یک فایل PDF آپلود کنید."
+
+#: converter/templates/base.html:86
+msgid "Please upload a PPT or PPTX file."
+msgstr "لطفاً یک فایل PPT یا PPTX آپلود کنید."
+
+#: converter/templates/base.html:91
+msgid "Unsupported file operation."
+msgstr "عملیات نامعتبر روی فایل."
+
+#: converter/templates/base.html:92
+msgid "You can upload a maximum of"
+msgstr "شما حداکثر می‌توانید "
+
+#: converter/templates/base.html:93
+msgid "file(s)."
+msgstr "فایل آپلود کنید ."
+
+#: converter/templates/converter/about.html:6
+#: converter/templates/converter/about.html:16
+#: converter/templates/converter/services.html:6
+msgid "About"
+msgstr "درباره ما"
+
+#: converter/templates/converter/about.html:35
+msgid "Our Team Name"
+msgstr "نام تیم ما"
+
+#: converter/templates/converter/home.html:6
+#: useraccount/templates/auth_include/navbar.html:36
+msgid "Home"
+msgstr "خانه"
+
+#: converter/templates/converter/home.html:31
+msgid "New"
+msgstr "جدید"
+
+#: converter/templates/converter/home.html:32
+msgid "Filters"
+msgstr "فیلترها"
+
+#: converter/templates/converter/home.html:43
+#: converter/templates/converter/home.html:49
+msgid "Total traffic"
+msgstr "ترافیک کل"
+
+#: converter/templates/converter/home.html:55
+#: converter/templates/converter/home.html:78
+#: converter/templates/converter/home.html:101
+#: converter/templates/converter/home.html:124
+msgid "Since last month"
+msgstr "از ماه گذشته"
+
+#: converter/templates/converter/home.html:66
+#: converter/templates/converter/home.html:72
+msgid "New users"
+msgstr "کاربران جدید"
+
+#: converter/templates/converter/home.html:89
+#: converter/templates/converter/home.html:95
+msgid "Converted Files"
+msgstr "فایل های تبدیل شده"
+
+#: converter/templates/converter/home.html:112
+#: converter/templates/converter/home.html:118
+msgid "Performance"
+msgstr "عملکرد"
+
+#: converter/templates/converter/home.html:142
+#: converter/templates/include/tools.html:15
+msgid "Coming Soon..."
+msgstr "به زودی..."
+
+#: converter/templates/converter/image_compress.html:6
+#: converter/templates/converter/image_compress.html:16
+msgid "Image Resize"
+msgstr "تغییر سایز عکس"
+
+#: converter/templates/converter/image_compress.html:56
+msgid "Resize Image"
+msgstr "تغییر سایز عکس"
+
+#: converter/templates/converter/image_compress.html:63
+#: converter/templates/converter/image_to_pdf.html:64
+#: converter/templates/converter/image_to_text.html:72
+#: converter/templates/converter/jpg_to_png.html:67
+#: converter/templates/converter/pdf_to_docx.html:65
+#: converter/templates/converter/pdf_to_image.html:65
+#: converter/templates/converter/webp_to_jpg.html:62
+msgid "Drag and drop files here to upload"
+msgstr "فایل‌ها را بکشید و اینجا رها کنید تا بارگذاری شوند"
+
+#: converter/templates/converter/image_compress.html:66
+msgid "Resize Images"
+msgstr "تغییر سایز عکس"
+
+#: converter/templates/converter/image_compress.html:74
+#: converter/templates/converter/image_to_pdf.html:76
+#: converter/templates/converter/image_to_text.html:81
+#: converter/templates/converter/jpg_to_png.html:76
+#: converter/templates/converter/pdf_to_docx.html:74
+#: converter/templates/converter/pdf_to_image.html:75
+#: converter/templates/converter/webp_to_jpg.html:71
+msgid "Download"
+msgstr "دانلود"
+
+#: converter/templates/converter/image_to_pdf.html:7
+#: converter/templates/converter/image_to_pdf.html:17
+#: converter/templates/converter/image_to_pdf.html:57
+msgid "Image to PDF"
+msgstr "عکس به pdf"
+
+#: converter/templates/converter/image_to_pdf.html:67
+msgid "Convert To PDF"
+msgstr "تبدیل کن به pdf"
+
+#: converter/templates/converter/image_to_text.html:7
+#: converter/templates/converter/image_to_text.html:17
+#: converter/templates/converter/image_to_text.html:57
+msgid "Image To Text"
+msgstr "تصویر به متن"
+
+#: converter/templates/converter/image_to_text.html:63
+msgid "choose the image language :"
+msgstr "زبان تصویر را انتخاب کنید :"
+
+#: converter/templates/converter/image_to_text.html:75
+msgid "Convert To Text"
+msgstr "تبدیل به متن"
+
+#: converter/templates/converter/jpg_to_png.html:7
+#: converter/templates/converter/jpg_to_png.html:17
+msgid "JPG To PNG"
+msgstr "JPG به PNG"
+
+#: converter/templates/converter/jpg_to_png.html:59
+msgid "JPG to PNG"
+msgstr "JPG به PNG"
+
+#: converter/templates/converter/jpg_to_png.html:70
+msgid "Convert To PNG"
+msgstr "    تبدیل به PNG"
+
+#: converter/templates/converter/pdf_to_docx.html:7
+#: converter/templates/converter/pdf_to_docx.html:17
+#: converter/templates/converter/pdf_to_docx.html:57
+msgid "PDF To Docx"
+msgstr "پی‌دی‌اف به وورد"
+
+#: converter/templates/converter/pdf_to_docx.html:68
+msgid "Convert To Docx"
+msgstr "تبدیل به وورد"
+
+#: converter/templates/converter/pdf_to_image.html:7
+#: converter/templates/converter/pdf_to_image.html:17
+#: converter/templates/converter/pdf_to_image.html:58
+msgid "Pdf To Image"
+msgstr "PDF به عکس"
+
+#: converter/templates/converter/pdf_to_image.html:68
+msgid "Convert To Image"
+msgstr "تبدیل کن به عکس"
+
+#: converter/templates/converter/search_results.html:5
+msgid "search_results"
+msgstr "نتایج جستجو"
+
+#: converter/templates/converter/search_results.html:14
+msgid "Search Results For"
+msgstr "نتیجه جستجو برای "
+
+#: converter/templates/converter/search_results.html:33
+#: converter/templates/include/tools.html:8
+msgid "Tools"
+msgstr "ابزارها"
+
+#: converter/templates/converter/services.html:16
+#: useraccount/templates/auth_include/navbar.html:46
+msgid "Services"
+msgstr "خدمات"
+
+#: converter/templates/converter/services.html:35
+msgid "Our Team services"
+msgstr "خدمات تیم ما"
+
+#: converter/templates/converter/webp_to_jpg.html:6
+#: converter/templates/converter/webp_to_jpg.html:17
+#: converter/templates/converter/webp_to_jpg.html:56
+msgid "WEBP to JPG"
+msgstr "Webp به Jpg"
+
+#: converter/templates/converter/webp_to_jpg.html:65
+msgid "Convert To JPG"
+msgstr "Webp به Jpg"
+
+#: converter/templates/errors/400.html:5
+#: converter/templates/errors/400.html:15
+#: converter/templates/errors/400.html:27
+msgid "400 BAD REQUEST"
+msgstr "۴۰۰ درخواست نامعتبر"
+
+#: converter/templates/errors/400.html:29
+msgid "Your Browser Sent An Invalid Request."
+msgstr "مرورگر شما درخواست نامعتبری ارسال کرده است."
+
+#: converter/templates/errors/400.html:31
+#: converter/templates/errors/403.html:31
+#: converter/templates/errors/404.html:31
+#: converter/templates/errors/500.html:31
+msgid "Go to Homepage"
+msgstr "به صفحه اصلی بروید"
+
+#: converter/templates/errors/403.html:5
+#: converter/templates/errors/403.html:15
+#: converter/templates/errors/403.html:27
+msgid "403 Forbidden"
+msgstr "۴۰۳ دسترسی ممنوع."
+
+#: converter/templates/errors/403.html:29
+msgid "Sorry, but requested sourse is not available for you."
+msgstr "متأسفیم، اما منبع درخواستی برای شما در دسترس نیست."
+
+#: converter/templates/errors/404.html:5
+msgid "Page Not Found"
+msgstr "۴۰۴ - صفحه یافت نشد"
+
+#: converter/templates/errors/404.html:15
+msgid "404 - Page Not Found"
+msgstr "۴۰۴ - صفحه یافت نشد"
+
+#: converter/templates/errors/404.html:29
+msgid "Sorry, the page you are looking for does not exist."
+msgstr "متأسفیم، صفحه‌ای که به دنبال آن هستید وجود ندارد."
+
+#: converter/templates/errors/500.html:5
+#: converter/templates/errors/500.html:15
+#: converter/templates/errors/500.html:27
+msgid "500 This Page Isn't Working!"
+msgstr "۵۰۰ این صفحه کار نمی‌کند!"
+
+#: converter/templates/errors/500.html:29
+msgid "Please Try Again Later Or Feel Free To Countact Us."
+msgstr "لطفاً بعداً دوباره تلاش کنید یا با ما تماس بگیرید."
+
+#: converter/templates/include/footer.html:15
+#: useraccount/templates/auth_include/navbar.html:89
+msgid "Facebook"
+msgstr "فیسبوک"
+
+#: converter/templates/include/footer.html:21
+#: useraccount/templates/auth_include/navbar.html:96
+msgid "Instagram"
+msgstr "اینستاگرام"
+
+#: converter/templates/include/footer.html:27
+#: useraccount/templates/auth_include/navbar.html:103
+msgid "Twitter"
+msgstr "توییتر"
+
+#: converter/templates/include/footer.html:33
+#: useraccount/templates/account/dashboard.html:167
+#: useraccount/templates/account/login.html:54
+#: useraccount/templates/account/password_reset_confirm.html:69
+#: useraccount/templates/account/password_reset_form.html:52
+#: useraccount/templates/account/register.html:67
+#: useraccount/templates/auth_include/navbar.html:110
+msgid "Github"
+msgstr "گیت هاب"
+
+#: converter/templates/include/footer.html:40
+#: useraccount/templates/auth_include/footer.html:16
+msgid "About Us"
+msgstr "درباره ما"
+
+#: converter/templates/include/footer.html:43
+#: useraccount/templates/auth_include/footer.html:19
+msgid "Blog"
+msgstr "وبلاگ"
+
+#: converter/templates/include/navbar.html:104
+msgid "Welcome!"
+msgstr "خوش آمدید!"
+
+#: converter/templates/include/navbar.html:108
+msgid "My profile"
+msgstr "پروفایل من"
+
+#: converter/templates/include/navbar.html:112
+msgid "Support"
+msgstr "حمایت کنید"
+
+#: converter/templates/include/navbar.html:117
+msgid "Logout"
+msgstr "خارج شوید"
+
+#: converter/templates/include/navbar.html:122
+msgid "Log-in"
+msgstr "وارد شدن"
+
+#: converter/views.py:115
+msgid "No PNG to download"
+msgstr "هیچ پی‌ان‌جی برای دانلود وجود ندارد !"
+
+#: converter/views.py:166
+msgid "No Jpg to download"
+msgstr "هیچ جی‌پی‌جی برای دانلود وجود ندارد !"
+
+#: converter/views.py:240
+msgid "No PDF to download"
+msgstr "هیچ پی دی افی برای دانلود وجود ندارد !"
+
+#: converter/views.py:317 converter/views.py:375
+msgid "No Image to download"
+msgstr "هیچ تصویری برای دانلود وجود ندارد !‍"
+
+#: converter/views.py:416
+msgid "No text to download"
+msgstr "هیچ متنی برای دانلود وجود ندارد !"
+
+#: converter/views.py:472
+msgid "No Docx to download"
+msgstr "هیچ ووردی برای دانلود وجود ندارد !"
+
+#: useraccount/forms.py:16 useraccount/forms.py:109
+#: useraccount/templates/account/dashboard.html:181
+#: useraccount/templates/account/dashboard.html:187
+msgid "Email"
+msgstr "ایمیل"
+
+#: useraccount/forms.py:24 useraccount/forms.py:81
+msgid "Password"
+msgstr "رمز عبور"
+
+#: useraccount/forms.py:39
+msgid "Old Password"
+msgstr "رمز عبور کهنه"
+
+#: useraccount/forms.py:42 useraccount/forms.py:67
+msgid "New Password"
+msgstr "رمز عبور جدید"
+
+#: useraccount/forms.py:46 useraccount/forms.py:71
+msgid "Confirm New Password"
+msgstr "رمز عبور جدید را تکرار کنید"
+
+#: useraccount/forms.py:57
+msgid "Add your Email"
+msgstr "ایمیل خود را اضافه کنید"
+
+#: useraccount/forms.py:92
+msgid "Repeat Password"
+msgstr "رمز عبور را تکرار کنید"
+
+#: useraccount/forms.py:116 useraccount/forms.py:149
+msgid "Username"
+msgstr "نام کاربری"
+
+#: useraccount/forms.py:124
+msgid "Passwords don't match"
+msgstr "گذرواژه ها مطابقت ندارند"
+
+#: useraccount/forms.py:131
+msgid "This Email Already exists"
+msgstr "این ایمیل از قبل وجود دارد"
+
+#: useraccount/forms.py:152
+msgid "First Name"
+msgstr "نام کوچک "
+
+#: useraccount/forms.py:155
+msgid "Last Name"
+msgstr "نام خانوادگی "
+
+#: useraccount/forms.py:158
+msgid "Email address"
+msgstr "Email address"
+
+#: useraccount/forms.py:171
+msgid "This email already exists."
+msgstr "این ایمیل از قبل وجود دارد"
+
+#: useraccount/templates/account/change_password.html:6
+#: useraccount/templates/account/password_reset_confirm.html:6
+#: useraccount/templates/account/password_reset_done.html:6
+#: useraccount/templates/account/register.html:6
+#: useraccount/templates/account/security.html:44
+msgid "Change Password"
+msgstr "رمز عبور را تغییر دهید"
+
+#: useraccount/templates/account/change_password.html:17
+#: useraccount/templates/account/change_password.html:36
+#: useraccount/templates/account/password_reset_confirm.html:79
+msgid "Change Your Password"
+msgstr "رمزعبور خود را تغییر دهید"
+
+#: useraccount/templates/account/change_password.html:72
+#: useraccount/templates/account/password_reset_confirm.html:105
+#: useraccount/templates/account/password_reset_form.html:76
+msgid "Remember me"
+msgstr "منو به یاد داشته باش"
+
+#: useraccount/templates/account/change_password.html:75
+#: useraccount/templates/account/password_reset_confirm.html:108
+#: useraccount/templates/account/security.html:47
+msgid "Change"
+msgstr "تغییر بده"
+
+#: useraccount/templates/account/dashboard.html:6
+#: useraccount/templates/account/dashboard.html:83
+msgid "Dashboard"
+msgstr "داشبورد"
+
+#: useraccount/templates/account/dashboard.html:110
+#: useraccount/templates/auth_include/sidenav.html:58
+msgid "Profile"
+msgstr "پروفایل"
+
+#: useraccount/templates/account/dashboard.html:116
+msgid "Username :"
+msgstr "نام کاربری :"
+
+#: useraccount/templates/account/dashboard.html:119
+msgid "First Name :"
+msgstr "نام کوچک :"
+
+#: useraccount/templates/account/dashboard.html:122
+msgid "Add First Name"
+msgstr "اضافه کردن نام"
+
+#: useraccount/templates/account/dashboard.html:126
+msgid "Last Name :"
+msgstr "نام خانوادگی :"
+
+#: useraccount/templates/account/dashboard.html:129
+msgid "Add Last Name"
+msgstr "اضافه کردن نام خانوادگی"
+
+#: useraccount/templates/account/dashboard.html:133
+msgid "Date Joined :"
+msgstr "تاریخ عضویت:"
+
+#: useraccount/templates/account/dashboard.html:136
+msgid "Change your info"
+msgstr "تغییر اطلاعات"
+
+#: useraccount/templates/account/dashboard.html:137
+msgid "Plans & Packages"
+msgstr "طرح ها و بسته ها"
+
+#: useraccount/templates/account/dashboard.html:149
+msgid "Social links"
+msgstr "پیوندهای اجتماعی"
+
+#: useraccount/templates/account/dashboard.html:155
+msgid "Connect your social accounts to log in through Github or Google."
+msgstr "حساب های اجتماعی خود را برای ورود از طریق Github یا Google متصل کنید."
+
+#: useraccount/templates/account/dashboard.html:163
+msgid "Link more social network accounts."
+msgstr "حساب های شبکه های اجتماعی بیشتری را پیوند دهید."
+
+#: useraccount/templates/account/dashboard.html:171
+#: useraccount/templates/account/login.html:58
+#: useraccount/templates/account/password_reset_confirm.html:73
+#: useraccount/templates/account/password_reset_form.html:56
+#: useraccount/templates/account/register.html:71
+msgid "Google"
+msgstr "گوگل"
+
+#: useraccount/templates/account/edit.html:5
+msgid "Edit"
+msgstr "ویرایش کنید"
+
+#: useraccount/templates/account/edit.html:44
+#: useraccount/templates/account/edit.html:139
+msgid "Update"
+msgstr "به روزرسانی"
+
+#: useraccount/templates/account/edit.html:67
+msgid "Edit Your Profile"
+msgstr "پروفایل خودت را ویرایش کن"
+
+#: useraccount/templates/account/edit.html:88
+msgid "Delete profile image"
+msgstr "حذف تصویر پروفایل"
+
+#: useraccount/templates/account/login.html:8
+#: useraccount/templates/account/register.html:128
+msgid "Login"
+msgstr "وارد شدن"
+
+#: useraccount/templates/account/login.html:19
+msgid "Log'in To Your Account"
+msgstr "وارد حساب کاربری خود شوید"
+
+#: useraccount/templates/account/login.html:49
+#: useraccount/templates/account/password_reset_confirm.html:64
+#: useraccount/templates/account/password_reset_form.html:47
+#: useraccount/templates/account/register.html:62
+msgid "Sign in with"
+msgstr "ورود به سیستم با"
+
+#: useraccount/templates/account/login.html:64
+msgid "sign in with email"
+msgstr "با ایمیل وارد شو"
+
+#: useraccount/templates/account/login.html:85
+msgid "Sign in"
+msgstr "ورود"
+
+#: useraccount/templates/account/login.html:92
+#: useraccount/templates/account/password_reset_form.html:86
+#: useraccount/templates/account/register.html:125
+msgid "Forgot password?"
+msgstr "رمز عبور را فراموش کرده اید؟"
+
+#: useraccount/templates/account/login.html:95
+#: useraccount/templates/account/password_reset_form.html:89
+msgid "Create new account"
+msgstr "ایجاد حساب کاربری جدید"
+
+#: useraccount/templates/account/password_reset_done.html:21
+msgid "Reset your password"
+msgstr "رمز عبور خود را بازیابی کنید"
+
+#: useraccount/templates/account/password_reset_done.html:23
+msgid "We've emailed you instructions for setting your password."
+msgstr "ما دستورالعمل های تنظیم رمز عبور را برای شما ایمیل کرده ایم."
+
+#: useraccount/templates/account/password_reset_done.html:25
+msgid ""
+"If you don't receive an email, please make sure you've entered the address "
+"you registered with."
+msgstr ""
+"اگر ایمیلی دریافت نکردید، لطفاً مطمئن شوید که آدرسی را که با آن ثبت نام کرده"
+" اید وارد کرده اید."
+
+#: useraccount/templates/account/password_reset_form.html:6
+msgid "Password Reset"
+msgstr "بازیابی رمز عبور"
+
+#: useraccount/templates/account/password_reset_form.html:62
+msgid "Reset Your Password With Email"
+msgstr "رمز عبور خود را با ایمیل بازنشانی کنید"
+
+#: useraccount/templates/account/password_reset_form.html:79
+msgid "Reset"
+msgstr "بازنشانی کنید"
+
+#: useraccount/templates/account/register.html:118
+msgid "Create account"
+msgstr "ایجاد حساب کاربری جدید"
+
+#: useraccount/templates/account/security.html:6
+#: useraccount/templates/account/security.html:15
+#: useraccount/templates/auth_include/sidenav.html:71
+msgid "Security"
+msgstr "امنیت"
+
+#: useraccount/templates/account/security.html:55
+msgid ""
+"Enhance Your Account Security by Updating Your Password to a Stronger One."
+msgstr ""
+"با به روز رسانی رمز عبور خود به رمز عبور قوی تر، امنیت حساب خود را افزایش "
+"دهید."
+
+#: useraccount/templates/account/security.html:70
+msgid "Two factor authentication"
+msgstr "احراز هویت دو عاملی"
+
+#: useraccount/templates/account/security.html:73
+msgid "Enable"
+msgstr "فعال کردن"
+
+#: useraccount/templates/account/security.html:81
+msgid "Upgrade Your Account Security with Two Factor Authentication."
+msgstr "امنیت حساب خود را با احراز هویت دو مرحله ای ارتقا دهید."
+
+#: useraccount/templates/account/security.html:84
+msgid ""
+"Enable Two Factor Authentication to add an extra layer of protection to your"
+" account."
+msgstr ""
+"احراز هویت دو عاملی را فعال کنید تا یک لایه حفاظتی اضافی به حساب خود اضافه "
+"کنید."
+
+#: useraccount/templates/account/security.html:87
+msgid "Status:"
+msgstr "وضعیت:"
+
+#: useraccount/templates/account/security.html:87
+msgid "Disable"
+msgstr "غیرفعال"
+
+#: useraccount/templates/account/settings.html:6
+#: useraccount/templates/account/settings.html:15
+#: useraccount/templates/account/settings.html:36
+#: useraccount/templates/auth_include/sidenav.html:87
+#: useraccount/templates/auth_include/sidenav.html:94
+msgid "Settings"
+msgstr "تنضیمات"
+
+#: useraccount/templates/account/settings.html:42
+msgid "Options"
+msgstr "گزینه ها"
+
+#: useraccount/templates/account/settings.html:43
+msgid "Detail"
+msgstr "جزئیات"
+
+#: useraccount/templates/account/settings.html:44
+msgid "Active"
+msgstr "فعال"
+
+#: useraccount/templates/account/settings.html:56
+msgid "Enable email notifications"
+msgstr "اعلان های ایمیل را فعال کنید"
+
+#: useraccount/templates/account/settings.html:60
+msgid ""
+"You will receive an email notification when a receiver has completed their "
+"request."
+msgstr ""
+"هنگامی که گیرنده درخواست خود را تکمیل کرد، یک اعلان ایمیل دریافت خواهید کرد."
+
+#: useraccount/templates/account/settings.html:75
+msgid "Set language"
+msgstr "زبان انتخاب کنید"
+
+#: useraccount/templates/account/settings.html:79
+msgid "Notifications will be sent in English."
+msgstr "اعلان ها به زبان انگلیسی ارسال خواهد شد."
+
+#: useraccount/templates/account/settings.html:94
+msgid "Change expiration date"
+msgstr "تاریخ انقضا را تغییر دهید"
+
+#: useraccount/templates/account/settings.html:98
+msgid "The document will expire in 15 days."
+msgstr "این سند 15 روز دیگر منقضی می شود."
+
+#: useraccount/templates/account/settings.html:115
+msgid "Multiple requests"
+msgstr "درخواست های متعدد"
+
+#: useraccount/templates/account/settings.html:119
+msgid ""
+"This option will allow each signer to receive a unique and separate request "
+"to sign individually."
+msgstr ""
+"این گزینه به هر امضا کننده اجازه می دهد تا یک درخواست منحصر به فرد و جداگانه"
+" برای امضای جداگانه دریافت کند."
+
+#: useraccount/templates/account/settings.html:135
+msgid "Save"
+msgstr "‌ذخیره کن "
+
+#: useraccount/templates/auth_include/navbar.html:40
+msgid "About us"
+msgstr "درباره ما"
+
+#: useraccount/templates/auth_include/navbar.html:87
+msgid "Like us on Facebook"
+msgstr "مارو در فیسبوک لایک کن"
+
+#: useraccount/templates/auth_include/navbar.html:94
+msgid "Follow us on Instagram"
+msgstr "مارو در اینستاگرام دنبال کن "
+
+#: useraccount/templates/auth_include/navbar.html:101
+msgid "Follow us on Twitter"
+msgstr "مارو در توییتر دنبال کن"
+
+#: useraccount/templates/auth_include/navbar.html:108
+msgid "Star us on Github"
+msgstr "تو گیت به ما ستاره بزن"
+
+#: useraccount/templates/auth_include/sidenav.html:65
+msgid "My Account"
+msgstr "حساب من"
+
+#: useraccount/templates/auth_include/sidenav.html:77
+msgid "Activity"
+msgstr "فعالیت"
+
+#: useraccount/templates/registration/password_reset_email.html:2
+msgid "Someone asked for a password reset for email"
+msgstr "شخصی برای ایمیل بازنشانی رمز عبور درخواست کرد"
+
+#: useraccount/templates/registration/password_reset_email.html:2
+msgid "Follow the link below:"
+msgstr "لینک زیر را دنبال کنید:"
+
+#: useraccount/views.py:36
+msgid "Authenticated Successfully"
+msgstr "با موفقیت تأیید شد"
+
+#: useraccount/views.py:39
+msgid "Disabled account"
+msgstr "حساب غیرفعال شده"
+
+#: useraccount/views.py:41
+msgid "Invalid login"
+msgstr "ورود نامعتبر است"
+
+#: useraccount/views.py:51
+msgid "You have been logged out successfully"
+msgstr "شما با موفقیت از سیستم خارج شدید"
+
+#: useraccount/views.py:75
+msgid "Your password has been successfully changed"
+msgstr "رمز عبور شما با موفقیت تغییر کرد"
+
+#: useraccount/views.py:87
+msgid "Your password has been successfully changed you can login now"
+msgstr "رمز عبور شما با موفقیت تغییر کرده است، اکنون می توانید وارد شوید"
+
+#: useraccount/views.py:109
+msgid "Your account has been successfully created"
+msgstr "اکانت شما با موفقیت ایجاد شد"
+
+#: useraccount/views.py:112
+msgid "Please correct the errors below"
+msgstr "لطفا خطاهای زیر را تصحیح کنید"
+
+#: useraccount/views.py:132
+msgid "Your Profile Updated Successfully!"
+msgstr "پروفایل شما با موفقیت آپدیت شد"
+
+#: useraccount/views.py:135
+msgid "Correct the errors below"
+msgstr "خطاهای زیر را اصلاح کنید"
+
+#~ msgid "Image"
+#~ msgstr "عکس"
+
+#~ msgid "Image To PDF"
+#~ msgstr "عکس به pdf"
+
+#~ msgid "Webp To JPG"
+#~ msgstr "Webp به Jpg"
+
+#~ msgid "PDF"
+#~ msgstr "PDF"
+
+#~ msgid "PDF To Images"
+#~ msgstr "PDF به عکس"
+
+#~ msgid "Sales"
+#~ msgstr "فروش"
+
+#~ msgid "RoboDev"
+#~ msgstr "روبوت دولوپر"
+
+#~ msgid "Category"
+#~ msgstr "دسته بندی"
+
+#~ msgid "I"
+#~ msgstr "ع"
+
+#~ msgid "P"
+#~ msgstr "پ"
+
+#~ msgid "PPT To Pdf"
+#~ msgstr "پاورپوینت به پی‌دی‌اف"
+
+#~ msgid "Brand name"
+#~ msgstr "نام برند"
+
+#, fuzzy
+#~ msgid "User Name"
+#~ msgstr "نام کاربری :"
+
+#~ msgid "Country :"
+#~ msgstr "کشور :"
+
+#~ msgid "Or sign in with credentials"
+#~ msgstr "یا با اعتبارنامه وارد شوید"
+
+#~ msgid "Don't Know Yet"
+#~ msgstr "هنوز نمیدونم"

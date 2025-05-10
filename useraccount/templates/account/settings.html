@@ -1,0 +1,140 @@
+{% extends 'base.html' %}
+{% load static %}
+{% load i18n %}
+
+{% block title %}
+  {% trans 'Settings' %}
+{% endblock %}
+
+{% block content %}
+  <div class="header bg-primary pb-6">
+    <div class="container-fluid">
+      <div class="header-body">
+        <div class="row align-items-center py-4">
+          <div class="col-lg-6 col-7">
+            <h6 class="h2 text-white d-inline-block mb-0">{% trans 'Settings' %}</h6>
+            <nav aria-label="breadcrumb" class="d-none d-md-inline-block ml-md-4">
+              <ol class="breadcrumb breadcrumb-links breadcrumb-dark">
+                <li class="breadcrumb-item">
+                  <a href="{% url 'home' %}"><i class="fas fa-home"></i></a>
+                </li>
+              </ol>
+            </nav>
+          </div>
+          <div class="col-lg-6 col-5 text-right"></div>
+        </div>
+        <!-- Card stats -->
+        <div class="row"></div>
+      </div>
+    </div>
+  </div>
+  <div class="container-fluid mt--5">
+    <div class="row">
+      <div class="col">
+        <div class="card bg-default shadow">
+          <div class="card-header bg-transparent border-0">
+            <h3 class="text-white mb-0">{% trans 'Settings' %}</h3>
+          </div>
+          <div class="table-responsive">
+            <table class="table align-items-center table-dark table-flush">
+              <thead class="thead-dark">
+                <tr>
+                  <th scope="col" class="sort" data-sort="name">{% trans 'Options' %}</th>
+                  <th scope="col" class="sort" data-sort="budget">{% trans 'Detail' %}</th>
+                  <th scope="col" class="sort" data-sort="budget">{% trans 'Active' %}</th>
+                </tr>
+              </thead>
+              <tbody class="list">
+                
+                  <th scope="row">
+                    
+                    <div class="media align-items-center">
+                          <button type="button" class="btn btn-vimeo btn-icon-only rounded-circle">
+                            <span class="btn-inner--icon"><i class="ni ni-email-83"></i></span>
+                          </button>
+                      <div class="media-body">
+                        <span class="name mb-0 text-sm">{% trans 'Enable email notifications' %}</span>
+                      </div>
+                    </div>
+                  </th>
+                  <td class="budget">{% trans 'You will receive an email notification when a receiver has completed their request.' %}</td>
+                  <td>
+                    <label class="custom-toggle">
+                      <input type="checkbox" checked="">
+                      <span class="custom-toggle-slider rounded-circle" data-label-off="No" data-label-on="Yes"></span>
+                    </label>
+                  </td>
+                  <tr>
+                    <th scope="row">
+                    
+                        <div class="media align-items-center">
+                              <button type="button" class="btn btn-dribbble btn-icon-only rounded-circle">
+                                <span class="btn-inner--icon"><i class="ni ni-world"></i></span>
+                              </button>
+                          <div class="media-body">
+                            <span class="name mb-0 text-sm">{% trans 'Set language' %}</span>
+                          </div>
+                        </div>
+                      </th>
+                      <td class="budget">{% trans 'Notifications will be sent in English.' %}</td>
+                      <td>
+                        <label class="custom-toggle">
+                          <input type="checkbox" checked="">
+                          <span class="custom-toggle-slider rounded-circle" data-label-off="No" data-label-on="Yes"></span>
+                        </label>
+                      </td>
+                      <tr>
+                      <th scope="row">
+                    
+                        <div class="media align-items-center">
+                              <button type="button" class="btn btn-slack btn-icon-only rounded-circle">
+                                <span class="btn-inner--icon"><i class="ni ni-folder-17"></i></span>
+                              </button>
+                          <div class="media-body">
+                            <span class="name mb-0 text-sm">{% trans 'Change expiration date' %}</span>
+                          </div>
+                        </div>
+                      </th>
+                      <td class="budget">{% trans 'The document will expire in 15 days.' %}</td>
+                      <td>
+                        <label class="custom-toggle">
+                          <input type="checkbox" checked="">
+                          <span class="custom-toggle-slider rounded-circle" data-label-off="No" data-label-on="Yes"></span>
+                        </label>
+                      </td>
+                      <tr>
+                      <th scope="row">
+                    
+                        <div class="media align-items-center">
+                              <button type="button" class="btn btn-google-plus btn-icon-only rounded-circle">
+                                <span class="btn-inner--icon">
+                                    <i class="fa-solid fa-users"></i>
+                                </span>
+                              </button>
+                          <div class="media-body">
+                            <span class="name mb-0 text-sm">{% trans 'Multiple requests' %}</span>
+                          </div>
+                        </div>
+                      </th>
+                      <td class="budget">{% trans 'This option will allow each signer to receive a unique and separate request to sign individually.' %}</td>
+                      <td>
+                        <label class="custom-toggle">
+                          <input type="checkbox" checked="">
+                          <span class="custom-toggle-slider rounded-circle" data-label-off="No" data-label-on="Yes"></span>
+                        </label>
+                      </td>
+            </tbody>
+              
+            </table>
+            
+            <br><br>
+            
+          </div>
+          
+        </div>
+        <button type="button" class="btn btn-primary">{% trans 'Save' %}</button>
+      </div>
+      
+    </div>
+  </div><br><br>
+{% endblock %}
