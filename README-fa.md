@@ -1,4 +1,4 @@
-[🇬🇧 English](README.md)
+[<img src="https://flagcdn.com/w40/gb.png" height="14"> English](README.md)
 
 # فلکسی‌کانورت | اپلیکیشن تحت وب تبدیل فرمت فایل
 
