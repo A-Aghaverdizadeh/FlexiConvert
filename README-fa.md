@@ -35,17 +35,17 @@
 git clone https://github.com/yourusername/flexiconvert.git
 cd flexiconvert
 ```
-۲. ساخت و فعال‌سازی محیط مجازی (Virtual Environment) 
+### ۲. ساخت و فعال‌سازی محیط مجازی (Virtual Environment) 
 ```bash
 python -m venv venv
 source venv/bin/activate      # در لینوکس یا مک
 venv\Scripts\activate         # در ویندوز
 ```
-۳. نصب وابستگی‌های پروژه
+### ۳. نصب وابستگی‌های پروژه
 ```bash
 pip install -r requirements.txt
 ```
-۴. نصب Tesseract برای OCR
+### ۴. نصب Tesseract برای OCR
 در لینوکس (Debian/Ubuntu):
 ```bash
 sudo apt update
@@ -54,16 +54,16 @@ sudo apt install tesseract-ocr-fas  # پشتیبانی از زبان فارسی
 ```
 توجه: در ویندوز می‌توانید Tesseract را از صفحه گیت‌هاب پروژه دانلود و نصب کنید.
 
-۵. اعمال مهاجرت‌ها (Migrations)
+### ۵. اعمال مهاجرت‌ها (Migrations)
 
 ```bash
 python manage.py migrate
 ```
-۶. بارگذاری داده‌های اولیه
+### ۶. بارگذاری داده‌های اولیه
 ```bash
 python manage.py loaddata converter/fixtures/data2.json
 ```
-۷. اجرای سرور توسعه
+### ۷. اجرای سرور توسعه
 ```bash
 python manage.py runserver
 ```
