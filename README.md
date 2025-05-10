@@ -76,6 +76,6 @@ Now visit http://127.0.0.1:8000/ to start using FlexiConvert.
 - HTML / CSS / JavaScript
 - Pillow, PyMuPDF, pytesseract, pdf2docx, etc.
 
-📄 License
+## 📄 License
 
 This project is licensed under the MIT License.
