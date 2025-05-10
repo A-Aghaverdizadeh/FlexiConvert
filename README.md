@@ -16,16 +16,16 @@ FlexiConvert is a Django-based web application designed for converting various f
 
 ## 🧩 Project Structure
 
-/converter # Core conversion logic and utilities
-/service # Backend processing services
-/useraccount # User authentication and account handling
-/locale # Language translation files (fa, en)
-/media # Uploaded media files
-/static # Static frontend assets (JS, CSS, fonts)
-/app.sock # (If deployed using a socket server)
-/db.sqlite3 # Development database (SQLite)
-/manage.py # Django management script
-/requirements.txt # Python package dependencies
+- converter # Core conversion logic and utilities
+- service # Backend processing services
+- useraccount # User authentication and account handling
+- locale # Language translation files (fa, en)
+- media # Uploaded media files
+- static # Static frontend assets (JS, CSS, fonts)
+- app.sock # (If deployed using a socket server)
+- db.sqlite3 # Development database (SQLite)
+- manage.py # Django management script
+- requirements.txt # Python package dependencies
 
 
 ## 🛠️ Installation Guide
@@ -54,7 +54,7 @@ python manage.py runserver
 
 ```
 
-## Tech Stack
+## 📦 Tech Stack
 
 Python 3.x
 Django
