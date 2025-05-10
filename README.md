@@ -35,30 +35,44 @@ FlexiConvert is a Django-based web application designed for converting various f
 ```bash
 git clone https://github.com/yourusername/flexiconvert.git
 cd flexiconvert
-
+```
+2. Create and activate a virtual environment
+```bash
 python -m venv venv
 source venv/bin/activate  # Linux/macOS
 venv\Scripts\activate     # Windows
-
+```
+3. Install Python dependencies
+```bash
 pip install -r requirements.txt
-
+```
+4. Install Tesseract OCR (for OCR functionality)
+```bash
 sudo apt update
 sudo apt install tesseract-ocr
 sudo apt install tesseract-ocr-fas  # Persian language support
-
-python manage.py migrate
-
-python manage.py loaddata converter/fixtures/data2.json
-
-python manage.py runserver
-
 ```
+Note: For Windows, download the installer from Tesseract GitHub.
+
+5. Run initial migrations
+```bash
+python manage.py migrate
+```
+6. Load initial data (optional)
+```bash
+python manage.py loaddata converter/fixtures/data2.json
+```
+7. Start the development server
+```bash
+python manage.py runserver
+```
+Now visit http://127.0.0.1:8000/ to start using FlexiConvert.
 
 ## 📦 Tech Stack
 
-Python 3.x
-Django
-SQLite3
-HTML / CSS / JavaScript
-Pillow, PyMuPDF, pytesseract, pdf2docx, etc.
+- Python 3.x
+- Django
+- SQLite3
+- HTML / CSS / JavaScript
+- Pillow, PyMuPDF, pytesseract, pdf2docx, etc.
 
