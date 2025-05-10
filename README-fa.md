@@ -54,13 +54,13 @@ python manage.py runserver
 ```
 
 📦 تکنولوژی‌های استفاده شده
-Python 3.x
+زبان برنامه نویسی Python 3.x برای بک اند
 
-Django
+فریموورک Django
 
-SQLite3
+دیتابیس SQLite3
 
-HTML / CSS / JavaScript
+ زبان های HTML / CSS / JavaScript برای فرانت
 
 کتابخانه‌های Pillow، PyMuPDF، pytesseract، pdf2docx و ...
 
