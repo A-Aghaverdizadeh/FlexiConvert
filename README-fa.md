@@ -71,9 +71,9 @@ python manage.py runserver
 
 ## 📦 تکنولوژی‌های استفاده شده
 
-زبان برنامه نویسی Python 3.x برای بک اند
-فریموورک Django
-دیتابیس SQLite3
- زبان های HTML / CSS / JavaScript برای فرانت
-کتابخانه‌های Pillow، PyMuPDF، pytesseract، pdf2docx و ...
+- زبان برنامه نویسی Python 3.x برای بک اند
+- فریموورک Django
+- دیتابیس SQLite3
+- زبان های HTML / CSS / JavaScript برای فرانت
+- کتابخانه‌های Pillow، PyMuPDF، pytesseract، pdf2docx و ...
 
